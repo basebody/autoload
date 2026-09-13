@@ -8,7 +8,7 @@ MurderMystery2 = 142823291
 local function sendNotification(gameName)
     StarterGui:SetCore("SendNotification", {
         Title = "Autoload",
-        Text = "Игра: " .. gameName .. "\nЗагружаю скрипт!",
+        Text = "\nИгра: " .. gameName,
         Duration = 5
     })
 end
